@@ -484,7 +484,7 @@ if mode == "User":
                 with st.spinner("Thinking..."):
                     try:
                         from langchain_google_genai import ChatGoogleGenerativeAI
-                        from langchain.prompts import ChatPromptTemplate
+                        from langchain_core.prompts import ChatPromptTemplate
 
                         llm = ChatGoogleGenerativeAI(model="gemini-2.5-flash", temperature=0.3, google_api_key=os.getenv("GEMINI_API_KEY"))
 

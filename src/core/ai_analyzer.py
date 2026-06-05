@@ -3,7 +3,7 @@ from typing import List, Dict, Any
 from dataclasses import dataclass
 
 from langchain_google_genai import ChatGoogleGenerativeAI
-from langchain.prompts import ChatPromptTemplate
+from langchain_core.prompts import ChatPromptTemplate
 
 @dataclass
 class LLMResult:
