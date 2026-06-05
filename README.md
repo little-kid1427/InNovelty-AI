@@ -128,6 +128,16 @@ Indicates reliability based on:
 - SerpAPI: 100/month (free)
 - Gemini: Per quota
 
+## 🔮 Future Scope
+
+- 🚀 **Smart Innovation Suggestions**: If an idea cannot be patented, the AI will suggest innovations by analyzing the "Future Scope" from reference papers.
+- 🎙️ **Voice Integration**: Support for voice messages (Whisper-like flow) for hands-free idea submission.
+- 📖 **Literature Review**: Automated literature review generation from research papers.
+- ⭐ **Negative Novelty Detector**: System flags "dangerous" or overly generic claim elements to avoid rejection.
+    - *Example*: "Using blockchain for security" → ❌ Too generic
+    - *Example*: "AI-based optimization" → ⚠️ Over-claimed
+    - *Output*: High rejection risk vs Safe innovation zones.
+
 ## 📝 License
 
 Educational and research use. Follow API terms of service.
