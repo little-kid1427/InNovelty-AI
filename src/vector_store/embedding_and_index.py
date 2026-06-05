@@ -5,9 +5,9 @@ import numpy as np
 import os
 
 # --- Configuration for embeddings and indexing ---
-DATA_FILE = 'arxiv_papers.csv'
+DATA_FILE = 'data/arxiv_papers.csv'
 EMBEDDING_MODEL_NAME = 'all-MiniLM-L6-v2'
-FAISS_INDEX_FILE = 'papers.faiss'
+FAISS_INDEX_FILE = 'data/papers.faiss'
 
 def load_data(file_path):
     """Loads a CSV file into a pandas DataFrame."""
@@ -59,8 +59,8 @@ def main():
     print(f"\nFAISS index created and saved to '{FAISS_INDEX_FILE}'.")
     
     # Save the original DataFrame as well to map IDs back to results later
-    df.to_pickle('papers_dataframe.pkl')
-    print("Original DataFrame saved as 'papers_dataframe.pkl'.")
+    df.to_pickle('data/papers_dataframe.pkl')
+    print("Original DataFrame saved as 'data/papers_dataframe.pkl'.")
 
 if __name__ == '__main__':
     main()

@@ -4,8 +4,8 @@ import faiss
 import numpy as np
 
 # --- Configuration ---
-FAISS_INDEX_FILE = 'papers.faiss'
-DATA_PICKLE_FILE = 'papers_dataframe.pkl'
+FAISS_INDEX_FILE = 'data/papers.faiss'
+DATA_PICKLE_FILE = 'data/papers_dataframe.pkl'
 EMBEDDING_MODEL_NAME = 'all-MiniLM-L6-v2'
 
 def load_resources(index_file, data_file, model_name):

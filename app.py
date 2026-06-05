@@ -11,7 +11,7 @@ import pandas as pd
 # Load environment variables from .env file
 load_dotenv()
 
-from utils import (
+from src.utils.utils import (
     init_logging,
     require_env,
     rate_limiter,
@@ -22,11 +22,11 @@ from utils import (
     export_results_pdf,
     export_results_csv,
 )
-from data_collection import collect_all_sources
-from preprocessing import build_corpus_dataframe
-from embedding_generator import ensure_index_ready
-from search_engine import VectorSearch
-from ai_analyzer import analyze_idea
+from src.data_ingestion.data_collection import collect_all_sources
+from src.data_ingestion.preprocessing import build_corpus_dataframe
+from src.vector_store.embedding_generator import ensure_index_ready
+from src.search.search_engine import VectorSearch
+from src.core.ai_analyzer import analyze_idea
 
 # ------------------------------
 # App Setup

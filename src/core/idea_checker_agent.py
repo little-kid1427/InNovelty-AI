@@ -9,8 +9,8 @@ import faiss
 import numpy as np
 
 # --- 1. Load your pre-built resources ---
-FAISS_INDEX_FILE = 'papers.faiss'
-DATA_PICKLE_FILE = 'papers_dataframe.pkl'
+FAISS_INDEX_FILE = 'data/papers.faiss'
+DATA_PICKLE_FILE = 'data/papers_dataframe.pkl'
 EMBEDDING_MODEL_NAME = 'all-MiniLM-L6-v2'
 
 try:
