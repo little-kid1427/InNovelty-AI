@@ -1,0 +1,23 @@
+streamlit>=1.36
+pandas>=2.2
+numpy>=1.26
+requests>=2.32
+python-dotenv>=1.0
+
+# LLM + LangChain
+google-generativeai>=0.3.0
+langchain>=0.2
+langchain-google-genai>=0.0.5
+
+# Embeddings + Vector Search
+sentence-transformers>=3.0
+faiss-cpu>=1.8
+
+# PDF export
+reportlab>=4.2
+
+# Excel export
+xlsxwriter>=3.2
+
+# Optional: Parsers
+lxml>=5.2
